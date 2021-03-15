@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset ="UTF-8"/>
+        <title> Aula 4</title>
+    </head>
+    <body>
+
+        <table border="1" width="500" height="200" bordercolor="red">
+            <tr bgcolor="green">
+                <th> Primeiro Nome </th>
+                <th>Segundo Nome</th>
+                <th>Idade</th>
+                <th colspan="2">Telefone</th>
+            </tr>
+            <tr align="center">
+                <td>José</td>
+                <td>da Silva</td>
+                <td>50</td>
+                <td rowspan="2">5555-5555</td>
+                <td>9999-9999</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Brito</td>
+                <td bgcolor="yellow">30</td>
+            </tr>
+
+        </table>
+
+        <ol type="A">
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+        <ol type="i">
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+        <ol type="I">
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+        <ul>
+            <li>Item 1</li>
+                <ul>
+                    <li>Item 1.1</li>
+                        <ul>
+                            <li>Item 1.1.1</li>
+                            <li>Item 1.1.2</li>
+                        </ul>
+                    <li>Item 1.2</li>
+                </ul>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <ul type="square">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li><a href="#">Item 3</a></li>
+        </ul>
+
+        <form>
+            <fieldset>
+                <legend>Informações pessoais</legend>
+                <lable>Nome:</lable>
+                <input type="text" value="Meu nome é"/>
+                <br/>
+                <lable>Sobrenome:</lable>
+                <input type="text" placeholder="Digite o sobrenome"/>
+                <br/>
+                <lable>Senha:</lable>
+                <input type="password"/>
+                <br/>
+                <lable>Estado:</lable>
+                <select>
+                    <option>Paraná</option>
+                    <option>Santa Catarina</option>
+                    <option>Rio Grande do Sul</option>
+                </select>
+                <br/>
+                <lable>Cores:</lable> <br/>
+                <input type="checkbox"/> Vermelho <br/>
+                <input type="checkbox"/> Verde <br/>
+                <input type="checkbox"/> Amarelo <br/>
+                <input type="checkbox"/> Azul <br/>
+                <input type="checkbox"/> Preto <br/>
+
+                <lable>Sexo:</lable> <br/>
+                <input type="radio" name="sexo"/> Masculino <br/>
+                <input type="radio" name="sexo"/> Feminino <br/>
+
+                <labe>Deixe seu Comentário:</labe> <br/>
+                <textarea cols="50" rows="5"> Meu comentário é</textarea> <br/>
+
+                <input type="submit" value="Gravar"/>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
+
