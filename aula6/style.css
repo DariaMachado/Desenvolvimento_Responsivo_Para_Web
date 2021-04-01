@@ -1,0 +1,37 @@
+body{
+    background-color: yellow;
+}
+p{
+    text-align: center;
+    font-family: Arial, Verdana, Tahoma;
+    font-weight: bold;
+    text-decoration: underline overline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 35px;
+    font-size: 20pt;
+    color: #ff0000;
+    text-shadow: -3px 2px 5px #000000;
+}
+
+header{
+    width: 600px;
+    height: 300px;
+    background-color: #00ff00;
+}
+.caixa{
+    width: 200px;
+    height: 300px;
+    background-color: #0000ff;
+    float: left;
+}
+.caixinha{
+    width: 200px;
+    height: 150px;
+    background-color: #ff0000;
+}
+
+
+/* R  G  B
+   00 00 00 */

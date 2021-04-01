@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+
+
+header{
+    width: 800px;
+    height: 200px;
+    background-color: gold;
+}
+
+nav{
+    width: 800px;
+    height: 30px;
+    background-color: cyan;
+}
+
+section{
+    width: 400px;
+    height: 300px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.caixa{
+    width: 800px;
+    height: 300px;
+}
+
+.ladoa{
+    width: 200px;
+    height: 300px;
+    background-color: salmon;
+    float: left;
+}
+
+.ladob{
+    width: 400px;
+    height: 150px;
+    background-color: orange;
+    float: left;
+}
+
+.ladoc{
+    width: 200px;
+    height: 150px;
+    background-color: fuchsia;
+    float: left;
+}
+
+footer{
+    width: 800px;
+    height: 30px;
+    background-color: red; 
+}
+
