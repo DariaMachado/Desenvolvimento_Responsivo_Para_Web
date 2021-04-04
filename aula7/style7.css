@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+    background-color: chartreuse;
+    text-align: center;
+    margin: auto;
+}
+
+section{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    overflow: hidden;
+    background-color: chocolate;
+    margin: auto;
+}
+
+.caixa{
+    width: 50%;
+    height: 200px;
+    padding: 15px;
+    box-sizing: border-box; 
+    background-color: darkred;
+    float: left; 
+}
+
+.caixa img{
+    width: 100%;
+
+}
+
+.caixinha{
+    width: 25%;
+    height: 200px;
+    background-color: darkslateblue;
+    float: left;
+}
+
+@media only screen and (max-width: 750px){
+    .caixinha{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .caixinha{
+        width: 100%;
+    }
+    .caixa{
+        width: 100%;
+    }
+}
