@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('font/Gotham-BookItalic.eot');
+    src: url('font/Gotham-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/Gotham-BookItalic.woff2') format('woff2'),
+        url('font/Gotham-BookItalic.woff') format('woff'),
+        url('font/Gotham-BookItalic.ttf') format('truetype'),
+        url('font/Gotham-BookItalic.svg#Gotham-BookItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+body{
+    margin: 0px;
+}
+.verde p{
+    font-family: 'Gotham';
+    font-size: 14pt;
+    font-weight: 500;
+    margin-top: 8px;
+    color: #ffffff;
+}
+.vermelho{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #5c5c5c;
+}
+.laranja{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.verde{
+    width: 33.3%;
+    height: 40px;
+    float: left;
+}
+
+@media only screen and (max-width: 600px){
+    .verde{
+        width: 100%;
+    }
+    .verde p{
+        text-align: center;
+    }
+}
+
+

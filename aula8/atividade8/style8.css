@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap');
+
+body{
+    margin: 0px;
+}
+
+.barraexterna{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: darkblue;
+}
+.barrainterna{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.barrinha{
+    width: 33.33%;
+    float: left;
+}
+.barrinha img{
+    width: 18px;
+}
+.barrinha p{
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+}
+.barraexterna2{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.barrainterna2{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.logo{
+    width: 28%;
+    float: left; 
+}
+.logo img{
+    width: 75%;
+}
+.barrinha2{
+    width: 12%;
+    float: left;
+}
+.barrinha2 p{
+    color: rgb(129, 117, 117);
+    text-align: center;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.caixameio{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.caixa{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    padding: 50px;
+}
+.caixinha{
+    width: 50%;
+    float: left;
+}
+.caixinha img{
+    width: 70%;
+}
+.caixinha h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.caixinha p{
+    font-size: 10pt;
+}
+.caixinha button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: darkred;
+}
+
+.caixainferior{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(17, 17, 228);
+}
+
+.caixa2{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    padding: 30px;
+}
+.caixinha2{
+    width: 33.33%;
+    float: left;
+}
+.caixinha2 img{
+    width: 70%;
+}
+.caixinha2 h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.caixinha2 p{
+    color: white;
+    font-size: 10pt;
+}
+.caixinha2 button{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: rgb(9, 78, 168);
+}
+
+@media only screen and (max-width: 600px) {
+    .barrinha{
+        width: 100%;
+    }
+    .barrinha p{
+        text-align: center;
+    }
+    .barrinha2{
+        width: 100%;
+    }
+    .barrinha2 p{
+        text-align: center;
+    }
+    .logo{
+        width: 100%;
+        align-items: center;
+    }
+    .caixinha{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .caixinha2{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+
+
