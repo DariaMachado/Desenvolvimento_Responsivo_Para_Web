@@ -1,0 +1,72 @@
+.box{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    float: left;
+    background-image: linear-gradient(to right, red, yellow, green);
+    border: 5px dotted red;
+}
+.box2{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    float: left;
+    background-image: linear-gradient(45deg, red, yellow, green);
+}
+.box3{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    float: left;
+    background-image: radial-gradient( red, yellow);
+    border: 5px solid red;
+}
+.box4{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    float: left;
+    background-image: radial-gradient( red, yellow);
+    border: 5px dashed red;
+}
+.box5{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    float: left;
+    background-image: radial-gradient( red, yellow);
+    border: 5px double red;
+}
+.box6{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    float: left;
+    background-image: radial-gradient( red, yellow);
+    border: 5px solid red;
+    border-radius: 20px 0px 20px 0px;
+}
+.box7{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    float: left;
+    background-image: radial-gradient( red, yellow);
+    border: 5px solid red;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: -5px 10px 20px red; /*A terceita medida se refere a profundidade*/
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    border: 2px solid #888;
+    padding: 5px 10px; /*A primeira medida se refere a top e bottom e a segunda para left e right*/
+}
+a:hover{
+    text-decoration: underline;
+    background-color: #888;
+}
+a:active{
+    color: red;
+}
