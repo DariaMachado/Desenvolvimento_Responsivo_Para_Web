@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li a{
+    background-image: linear-gradient( rgb(132, 132, 241), rgb(39, 39, 241));
+    width: 80px;
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+li{
+    float: left;
+}
+
+li a:hover{
+    background-image: linear-gradient(blue, blue);
+    color: white;
+}

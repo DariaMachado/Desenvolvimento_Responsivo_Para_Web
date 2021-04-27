@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="hover.css">
+    <style>
+        p{
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+        }
+    </style>
+    <title>Atividade 10</title>
+</head>
+<body>
+    <div class=" wow barraexterna slideInLeft">
+        <div class="barrainterna">
+            <div class=" wow barrinha slideInDown">
+                <p>
+                    <img src="img/Mobile-Phone-1-icon.png" alt="Telefone">
+                    (41) 0000-0000
+                </p>
+            </div>
+            <div class="wow barrinha slideInDown">
+                <p>
+                    <img src="img/Email-icon.png" alt="email">
+                    email@email.com
+                </p>
+            </div>
+            <div class="wow barrinha slideInDown">
+                <p>
+                    <img src="img/Maps-Location-icon.png" alt="Localização">
+                    Rua Alameda, nº000 - Curitiba
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wow barraexterna2 slideInLeft">
+        <div class="barrainterna2">
+            <div class="wow logo bounce">
+                <img src="img/logo.jpg" alt="Logo">
+            </div>
+            <div class="barrinha2 hvr-pulse-grow">
+                <p>HOME</p>
+            </div>
+            <div class="barrinha2 hvr-pulse-grow">
+                <p>EMPRESA</p>
+            </div>
+            <div class="barrinha2 hvr-pulse-grow">
+                <p>SERVIÇOS</p>
+            </div>
+            <div class="barrinha2 hvr-pulse-grow">
+                <p>HOSPEDAGEM</p>
+            </div>
+            <div class="barrinha2 hvr-pulse-grow">
+                <p>PORTIFÓLIO</p>
+            </div>
+            <div class="barrinha2 hvr-pulse-grow">
+                <p>CONTATO</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wow banner bounce">
+        <img src="img/banner3.jpg" alt="Banner">
+    </div>
+
+    <div class="caixameio">
+        <div class="caixa">
+            <div class="wow caixinha zoomIn">
+                <h2>BEM-VINDO AO</h2>
+                <h2 style="color: darkred;">NOSSO SITE</h2>
+                <hr>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                    Sunt deleniti alias corporis. Expedita, eligendi ex! <br>
+                    Doloremque, voluptatibus illo. Natus maxime ratione <br>
+                    nesciunt aspernatur facere provident, perspiciatis ducimus <br>
+                    consectetur dignissimos maiores?
+                </p>
+                <button class="hvr-bounce-in">Entrar</button>
+            </div>
+            <div class="wow caixinha zoomIn">
+                <img src="img/interna-trivunaal-work.jpg" alt="Computador">
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="wow caixainferior slideInLeft">
+        <div class="caixa2" style="text-align: center;">
+            <div class="wow caixinha2 zoomInRight">
+                <img src="img/tec.jpg" alt="PC">
+                <h3>CRIAÇÃO DE SITES</h3>
+                <p>Lorem ipsum dolor sit <br>
+                    amet consectetur, adipisicing elit. <br>
+                    Iusto cupiditate vitae consequuntur ab. 
+                </p>
+                <button class="hvr-bounce-in">Saiba Mais</button>
+            </div>
+            <div class="wow caixinha2 zoomInRight">
+                <img src="img/host.jpg" alt="host">
+                <h3>HOSPEDAGEM DE SITES</h3>
+                <p>Lorem ipsum dolor sit <br>
+                    amet consectetur, adipisicing elit. <br>
+                    Iusto cupiditate vitae consequuntur ab. 
+                </p>
+                <button class="hvr-bounce-in">Saiba Mais</button>
+            </div>
+            <div class="wow caixinha2 zoomInRight">
+                <img src="img/manutencao1.jpg" alt="Manutenção">
+                <h3>MANUTENÇÃO DE SITES</h3>
+                <p>Lorem ipsum dolor sit <br>
+                    amet consectetur, adipisicing elit. <br>
+                    Iusto cupiditate vitae consequuntur ab. 
+                </p>
+                <button class="hvr-bounce-in">Saiba Mais</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="dist/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+  </script>
+
+</body>
+</html>
