@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap');
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.barrasuperior{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+.barrasuperior img{
+    width: 18px;
+}
+.barrasuperior2 p{
+    color: rgb(143, 132, 132);
+    padding-top: 20px;
+    text-align: center;
+}
+.barrasuperior2 img{
+    width: 55%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.caixa{
+    padding: 50px;
+}
+.caixa img{
+    width: 60%;
+}
+.caixa button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: darkred;
+}
+.caixa h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.caixa p{
+    font-size: 10pt;
+}
+
+.caixa2{
+    padding: 30px;
+}
+.caixa2 h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 15pt;
+}
+.caixa2 p{
+    color: white;
+    font-size: 10pt;
+}
+.caixa2 img{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.caixa2 button{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: rgb(9, 78, 168);
+}
+
+@media only screen and (max-width: 600px) {
+   .caixa{
+       padding-bottom: 30px;
+   }
+   .caixa img{
+       width: 100%;
+   }
+}
